@@ -1,0 +1,30 @@
+<html>
+<head></head>
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <h1>Welcome to the Rock, Paper, Scissors Championship!</h1>
+  <h2 id="result"></h2>
+  <div class="selections">
+    <div class="rock">
+      <input type="image" id="rock" src="images/rock.png">
+      <span class="text-rock">ROCK</span>
+    </div>
+    <div class="paper">
+      <input type="image" id="paper" src="images/paper.png">
+      <span class="text-paper">PAPER</span>
+    </div>
+    <div class="scissor">
+      <input type="image" id="scissors" src="images/scissors.png">
+      <span class="text-scissors">SCISSORS</span>
+    </div>  
+  </div>
+    <div class="scoreboard">Scoreboard
+      <div id="user">User: 0</div>
+      <div id="comp">Computer: 0</div>
+    </div>
+  <script src="rock.js"></script>
+</body>
+</html>
